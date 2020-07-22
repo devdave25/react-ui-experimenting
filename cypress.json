@@ -1,0 +1,15 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "fixturesFolder": false,
+  "testFiles": "**/*cy-spec.{js,jsx,ts,tsx}",
+  "viewportWidth": 500,
+  "viewportHeight": 800,
+  "video": false,
+  "ignoreTestFiles": [
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*"
+  ],
+  "env": {
+    "coverage": false
+  }
+}
